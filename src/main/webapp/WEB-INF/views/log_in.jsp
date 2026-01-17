@@ -51,7 +51,7 @@
 
                   <!-- FORM CUSTOMER -->
                   <div id="customerForm">
-					<form action="${pageContext.request.contextPath}/LogInController" method="post">
+					<form action="LogInController" method="post">
                     <input type="hidden" name="action" value="loginCustomer">
                       <div class="mb-3">
                         <label for="custUsername" class="form-label">Username</label>
@@ -80,7 +80,7 @@
 
                   <!-- FORM STAFF -->
                   <div id="staffForm" style="display: none;">
-					<form action="${pageContext.request.contextPath}/LogInController" method="post">
+					<form action="/LogInController" method="post">
                     <input type="hidden" name="action" value="loginStaff">
                       <div class="mb-3">
                         <label for="Username" class="form-label">Username</label>
